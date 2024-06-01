@@ -1,0 +1,28 @@
+{
+  "name": "sustainable-shamrock",
+  "version": "1.0.0",
+  "description": "Electricity token for data centres",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DivyaKalash/Sustainable-Shamrock.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DivyaKalash/Sustainable-Shamrock/issues"
+  },
+  "homepage": "https://github.com/DivyaKalash/Sustainable-Shamrock#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^2.4.3",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^6.10.0",
+    "nodemon": "^3.1.2"
+  }
+}
